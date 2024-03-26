@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  border: magenta;
+  border-style: solid;
+  border-width: 10px;
+  border-top: none;
+  border-bottom: none;
+  margin-right: -1px;
+  margin-left: -1px;
+}
+
+.bordertop {
+  position: fixed;
+  width: 2000px;
+  height: 10px;
+  margin-top: -10px;
+  background-color: magenta;
+  z-index: 1000;
+}
+.borderbottom {
+  position: fixed;
+  top: 100%;
+  width: 2000px;
+  height: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+  background-color: magenta;
+  z-index: 1000;
+}
+
+.header {
+  position: relative;
+}
+
+.home-button {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home-button:hover {
+  font-style: italic;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.part-link {
+  display: block;
+  border-style: solid;
+  border-width: 4px;
+  border-color: magenta;
+  z-index: 11;
+}
+
+.part-link:hover {
+  border-style: outset;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: -2px;
+  left: -2px;
+  z-index: 100000;
+}
+
+.redButton {
+  background-color: #da1a32;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.title {
+  display: block;
+  position: absolute;
+  font-size: 40px;
+  top: 96%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  font-size: 100px;
+}
+
+.text-box {
+  display: block;
+  margin-top: 180px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
+  display: block;
+  line-height: 2;
+  color: white;
+  font-size: larger;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.pc-parts {
+  display: block;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.gpu {
+  position: absolute;
+  top: 520px;
+  left: 191px;
+  width: 350px;
+  height: auto;
+  z-index: 10;
+}
+.cpu {
+  position: absolute;
+  top: 379px;
+  left: 307px;
+  width: 100px;
+  height: auto;
+  z-index: 10;
+}
+.ram {
+  position: absolute;
+  top: 338px;
+  left: 408px;
+  width: 55px;
+  height: auto;
+  z-index: 10;
+}
+.motherboard {
+  position: absolute;
+  top: 320px;
+  left: 266px;
+  width: 228px;
+  height: auto;
+  z-index: 1;
+}
+.cooler {
+  position: absolute;
+  top: 148px;
+  left: 206px;
+  width: 453px;
+  height: auto;
+  z-index: 10;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding-right: 15px;
+}
